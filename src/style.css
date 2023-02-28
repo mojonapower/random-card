@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  font-size: 70px;
+}
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+.card {
+  background-color: white;
+  width: 200px;
+  height: 300px;
+}
+
+.bottom {
+  transform: rotate(180deg);
+}
+.mid {
+  text-align: center;
+  border: 30px;
+}
+img {
+  width: 200px;
+}
